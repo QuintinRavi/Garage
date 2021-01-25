@@ -1,0 +1,116 @@
+
+/*
+  Theme Name: Codeceil App
+  Author: Nababur Rahaman
+  Support: nababurbd@gmail.com
+  Website URL: https://codeceil.com
+  Author URL: https://github.com/nababur
+  Description: For share Codes and Snippets.
+  Version: 1.0
+*/
+
+
+/*Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap');
+
+
+
+body {
+
+  line-height: 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  visibility: visible;
+font-family: 'Nunito', sans-serif;
+  color: #222; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  margin-top: 0; }
+
+h1 {
+  font-size: 36px;
+  line-height: 42px; }
+
+h2 {
+  font-size: 32px;
+  line-height: 36px; }
+
+h3 {
+  font-size: 24px;
+  line-height: 30px; }
+
+h4 {
+  font-size: 18px;
+  line-height: 24px; }
+
+h5 {
+  font-size: 14px;
+  line-height: 18px; }
+
+h6 {
+  font-size: 12px;
+  line-height: 24px; }
+
+.navbar {
+  overflow: auto;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
